@@ -1096,7 +1096,7 @@ function newClient() {
 	if [ -e "/home/$CLIENT" ]; then # if $1 is a user name
 		homeDir="/home/falcon02"
 	elif [ "${SUDO_USER}" ]; then # if not, use SUDO_USER
-		homeDir="/home/falcon02}"
+		homeDir="/home/falcon02"
 	else # if not SUDO_USER, use /root
 		homeDir="/falcon02"
 	fi
